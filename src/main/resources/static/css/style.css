@@ -24,6 +24,13 @@ text-align: center;
   margin: 0 18px 0 18px;
 }
 
+.table td, .table th {
+  padding: 0rem;
+  vertical-align: baseline;
+  text-align: center;
+  border-top: 1px solid #dee2e6;
+}
+
 .casillaActividad{
   display: flex;
   justify-content: space-around;
@@ -32,13 +39,26 @@ text-align: center;
 .botonBorrar{
   width: 50%;
   border-radius: 0;
-  background-color: #11101D;
+  background-color: rgb(149, 5, 29);
   color: #FFFFFF;
 }
 
 .botonBorrar:hover{
   color:#FFFFFF;
-  background-color: rgb(52,58,64);
+  background-color: rgb(72, 77, 84);
+}
+
+.botonModificar{
+  height: 100%;
+  width: 50%;
+  border-radius: 0;
+  background-color: #11101D;
+  color: #FFFFFF;
+}
+
+.botonModificar:hover{
+  color:#FFFFFF;
+  background-color: rgb(72, 77, 84);
 }
 
 
